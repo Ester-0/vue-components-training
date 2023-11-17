@@ -19,7 +19,7 @@ const incrementLikes = () => {
     // Corregir: 10.17
     
     indexColor= indexColor+1
-    if (indexColor==6) {indexColor=0}
+    if (indexColor==colors.length) {indexColor=0}
 
 }
 

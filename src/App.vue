@@ -3,6 +3,7 @@ import IdCard from "./components/IdCard.vue";
 import Random from "./components/Random.vue";
 import Colors from "./components/Colors.vue";
 import LikeButton from "./components/LikeButton.vue";
+import Carousel from "./components/Carousel.vue";
 
 </script>
 
@@ -38,6 +39,14 @@ import LikeButton from "./components/LikeButton.vue";
 
     <h2>Likes</h2>
     <LikeButton/><LikeButton/>
+
+    <h2>Dice</h2>
+
+    <h2>Carousel</h2>
+    <Carousel :images="['https://randomuser.me/api/portraits/women/1.jpg'
+      , 'https://randomuser.me/api/portraits/men/1.jpg', 'https://randomuser.me/api/portraits/women/2.jpg'
+      , 'https://randomuser.me/api/portraits/men/2.jpg']" />
+    
 
 
   </section>
