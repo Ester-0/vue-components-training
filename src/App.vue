@@ -2,6 +2,8 @@
 import IdCard from "./components/IdCard.vue";
 import Random from "./components/Random.vue";
 import Colors from "./components/Colors.vue";
+import LikeButton from "./components/LikeButton.vue";
+
 </script>
 
 <template>
@@ -33,6 +35,11 @@ import Colors from "./components/Colors.vue";
     <h2>Color</h2>
     <Colors :r="255" :g="0" :b="0" />
     <Colors :r="128" :g="255" :b="0" />
+
+    <h2>Likes</h2>
+    <LikeButton/><LikeButton/>
+
+
   </section>
 </template>
 
